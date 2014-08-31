@@ -1,87 +1,219 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<title>  </title>
+		<title>Dev Shots</title>
 		<meta charset="UTF-8">
-		<meta name="author" content="Maitabe">
-  </head>
+	</head>
   <body>
-	 <div> 
-		<div> <img scr=" " alt text=""><a href="http://netcraft.com">Netcraft</a></div>
-	    <div>DEV SHOTS</div>
-	  </div>
-		
-		<div>
-			<ul> 
-				<li>Menu 10</li>
-			    <li>Menu 2</li>
-				<li>Menu 3</li>
-				<li>Menu 4</li>
-				<li>Menu 5</li>
-				<li>Menu 6</li>
-				<li>Menu 7</li>
-			</ul>
+  
+	 <header style="background:url()"> 
+		<div class="black"> 
+			<a href="http://www.netcraft.com">
+				<img src="logoNetcraft.jpg" alt text="Netcraft" />
+			</a>
+			<h1>DEV SHOTS developers event</h1>
 		</div>
-		
-	  <div> 
-		<div><img scr="" alt text=""> <div/>
-		<div><h1> אירוע פיתוח בראש טוב</h1> <div/>
-	    <div><h2><span>description</span> of title</h2> <div/>
-	  </div>
-  
-	  <div> 
-		<div><h4> 6 boxes with name of lecture</h4> <div/>
-		<div><h5> time for each lecture</h5><div/>
-	  </div>
-  
-	  <div> separator line </div>
-	  
-	  <div> 
-		<div>
-			<ul> 
-				<li> </li>
-				
+	    <div class="headerTitle">
+			<h2> DEVELOPERS EVENT IN GOOD MOOD</h2>
+			<p>Talk about technology in the daily life</p>
+		</div>
+		<nav class="navigation"> 
+			<ul>
+				<li>ניווט</li>
+				<li>what it is</li>
+				<li>lectures</li>
+				<li>where to park</li>
+				<li>list</li>
+				<li>helpful information</li>
+				<li>about us</li>
 			</ul>
-	    </div>
-		
-	    <div> separator line </div>
-	    
-		<div>
-			<div> 
-				<ol>
-					<li> </li>
-				
-				
-				</ol>
-				
-				
-				<div><img scr=""> Image of person </div>
-				<div> 
-					<div><strong>title of lecture</strong></div>
-					<div><i>description of lecture</i></div>
-				</div>
-			</div>
-			
-			<div> 
-				<div><img scr=""> Image of person </div>
-				<div> 
-					<div><strong>title of lecture</strong></div>
-					<div><i>description of lecture</i></div>
-				</div>
-			</div>
-			
-			<div> 
-				<div><img scr=""> Image of person </div>
-				<div> 
-					<div><strong>title of lecture</strong>
-					</div>
-					<div><i>description of lecture</i></div>
-				</div>
-			</div>
-	    </div>
+		</nav>
+	  </header>
 	  
-	  </div>
+	 <section class="featureLectures"> 
+		<h3>6 Lectures</h3>
+		<h4>15 minutes for lecture<h4>
+		<ul>
+			<li>
+				<img src="lecture1.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>
+			<li>
+				<img src="lecture2.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>
+			<li>
+				<img src="lecture2.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>
+			<li>
+				<img src="lecture4.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>
+			<li>
+				<img src="lecture5.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>
+			<li>
+				<img src="lecture6.jpg" />
+				<p>name of lecturer</p>
+				<p>description of lecture</p>
+			</li>	
+		</ul>
+	 </section>
+	  
+	 <section class="eventInfo">
+		<figure>
+			<img src="addressMap.jpg" alt="address for developers event" />
+			<figcaption>zoom map</figcaption>
+		</figure>
+		<ul>
+			<li>
+				<h2>Where to park the car?</h2><!-- what should I use <h4> or <p>--> 
+				<span>and another important information</span> <!-- what should I use h3 or <span> or <em>-->
+			</li>  
+			<li>
+				<h3>The event will take place</h3> 
+				<address>Av Shalom 53, Tel aviv</address>
+			</li>
+			<li>
+				<p>Entrance time: <time>18:30</time></p> <!-- is correct to nest <div> inside <li>?-->
+				<p>Event start: <time>19:00</time></p>
+			</li>
+			<li>
+				<p>Parking</p>
+				<p>autobus</p>
+			</li>
+			<li> 
+				<ol>
+					<li>Eli Pelet parking</li>
+					<li>Elfasi street </li>
+					<li>Haim ben eter street</li>
+				</ol>
+				<ol>
+					<li>Merkaz train - 142, 42</li>
+					<li>Merkazit station - 163, 201, 96</li>
+				</ol>
+			</li>
+		</ul>
+	  </section>
+	  
+	  <section>
+		<ul> 
+			<li> 
+				<h2>Registration</h2>
+				<h3>Free entrance, seats are limited</h3>
+				<span>Please register if you will be able to come</span>
+				<span>All your personal information wont be shared </span>
+			</li>	
+		</ul>
+		<form action="">
+			<fieldset>First name
+			<input type="text" name="FirstName"  placeholder="First and Last name">
+			</fieldset>
+			<fieldset>Occupation
+			<input type="text" name="Occupation"  placeholder="Regular activity">
+			</fieldset>
+			<fieldset>Organization
+			<input type="text" name="Organization"  placeholder="what's your copmpany">
+			</fieldset>
+			<fieldset>Telephone number
+			<input type="text" name="Telephone number"  placeholder="or cellphone, we don't care which one ">
+			</fieldset>
+			<fieldset>Recommend a friend
+			<input type="text" name="Recommend a friend"  placeholder="I have a lot but I will come by myself">
+			</fieldset>
+			<button type="button">Now! send your details</button>
+		</form>
+	  </section>
+	  
+	  <section> 
+		<h2>Useful information</h2>
+		<ul> 
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+			<li> 
+				<img src="learningIcon.jpg" />
+				<p>name of info</p>
+				<p>description of info</p>
+			</li>
+		</ul>
+	  </section>
+	  
+	  <footer>
+		<h2>About us</h2>
+		<ul>
+			<li> 
+				<a href="http://www.netcraft.com">
+				<img src="logoNetcraft.jpg" title="Netcraft" alt text="Netcraft" />
+			</a>
+			</li>
+			<li> 
+				<p>Netcraft</p>
+				<p>dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+			</li>
+			<li> 
+				<img src="logoDigitali.jpg" alt text="digitali" /> 
+				<p>Digital events</p>
+			</li>
+			<li> 
+				<img src="logoSchool.jpg" alt text="digitali" /> 
+				<p>School</p>
+			</li>
+			<li> 
+				<img src="logoUXonBeer.jpg" alt text="UXonBeer" /> 
+				<p>Experience in beer</p>
+			</li>
+		</ul>
+		<p>Reserved rights Netcraft &copy; 2012 | Telephone:  </p>
+	  </footer>
   </body>
-
-
 </html>
