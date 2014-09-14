@@ -177,7 +177,6 @@
 		display: inline-block;
 		width: 219px;
 		height: 175px;
-		display: inline-block;
 		border-radius: 6px;
 		background-color: rgba(255, 102, 0, 0.9);
 		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -257,42 +256,163 @@
 
 	/*  Comverse's Icon Services */
 	.servicesBox {
-		width: 121px;
-		height: 147px;
-		margin: 0;
-		padding: 0;
-		background:  #3399CC;
 		list-style-type: none;
-		border: 1px solid black;
-		box-sizing: border-box;
+		/*margin-left: 10px;*/
 	}
-	
+
+	.servicesBox li{
+		width: 150px;
+		height: 157px;
+		border: 1px solid black;
+		display: inline-block;
+		list-style-type: none;
+		
+	}
 	
 	.servicesBox a {
 		text-decoration: none;		
 	}
 	
-	
 	.servicesBox .imgIcon {
-		width: 160px;
-		height: 100px;
+		width: 143px;
+		height:62px;
 		margin: 17px;
-		background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS.png) no-repeat ;
+		
 		
 	}
 	
-	.servicesBox .imgIcon:hover {
-		 background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS_hover.png);
-		  
-	}
-	
-	.servicesBox  div > p {
+	.servicesBox p {
 		color: #ffffff;
 		font-size: 16px;
 		text-decoration: none;
 		padding: 5px 0 0 12px ;
 		text-align: center;
-		/*width: 160px;
-		height: 100px;*/
+		text-shadow: 2px 2px 4px #000000; 	
+	}
+	/*is there better solution for the below*/
+	.servicesBox .imgIcon0{
+		background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon0:hover {
+		 background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS_hover.png); 
+	}
+
+	.servicesBox .imgIcon1{
+		background: url(img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon1:hover {
+		 background: url(img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE_hover.png);  
+	}
+
+	.servicesBox .imgIcon2{
+		background: url(img/hp_solution_icon_SMART_MONETIZATION.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon2:hover {
+		 background: url(img/hp_solution_icon_SMART_MONETIZATION_hover.png);  
+	}
+	
+	.servicesBox .imgIcon3{
+		background: url(img/hp_solution_icon_OPTIMIZATION_EFFICIENCY.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon3:hover {
+		 background: url(img/hp_solution_icon_OPTIMIZATION_EFFICIENCY_hover.png);  
+	}
+	
+	.servicesBox .imgIcon4{
+		background: url(img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon4:hover {
+		 background: url(img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL_hover.png);  
+	}
+	
+	.servicesBox .imgIcon5{
+		background: url(img/hp_solution_icon_BUSINESS_TRANSFORMATION.png) no-repeat ;
+		
+	}
+	
+	.servicesBox .imgIcon5:hover {
+		 background: url(img/hp_solution_icon_BUSINESS_TRANSFORMATION_hover.png);  
+	}
+	
+    /*Section Comverse's Solutions */
+
+	.soluCom li {
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 90px;
+	}
+
+	.soluCom a {
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 2em;
+		color: #ffffff;
+		text-decoration: none;
+		text-shadow: 2px 2px 4px #000000;
+	}
+
+	/*Section Happening at Comverse's*/
+
+	.eventList{
+		list-style-type: none;
+	}
+
+	.subTitleSection{
+		font-size:30px;
+		color: #ffffff; 
+		text-transform: uppercase;
+		text-shadow: 2px 2px 4px #000000;
+	}
+
+	.transparentBox{
+		width: 300px;
+		height: 120px;
+		background-color: rgba(256, 256, 256, 0.4);
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.blueBox{
+		width: 69px;
+		height: 99px;
+		color: #ffffff;
+		background-color: #3399CC;
+		float:left;
+		margin: 10px 0 0 10px;
+	}
+
+	.date{
+		height: 66px;
+		font-size: 30px;
+		border-bottom: 3px dotted white;
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.month{
+		height: 33px;
+		color: #ffffff;
+		background-color: #3399CC;
+		font-size: 12px;
+		text-align: center;
+		line-height: 35px;
+	}
+
+	.insideBox{
+	  width:200px;
+	  height:40px;
+	  color:#000000;
+	  font-size:20px;
+	  float: left;
+	  text-align: left;
+	  padding-left:10px;
 	}
 	

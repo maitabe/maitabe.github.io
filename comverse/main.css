@@ -355,22 +355,25 @@
 		padding-left: 150px;
 	}
 	
-	.solutionBox {
-		width: 169px;
-		height: 157px;
-		background:  #3399CC;
+	.servicesBox {
 		list-style-type: none;
-		margin-left: 10px;
-		float: left;
+		/*margin-left: 10px;*/
+	}
+
+	.servicesBox li{
+		width: 150px;
+		height: 157px;
+		border: 1px solid black;
+		display: inline-block;
+		list-style-type: none;
+		
 	}
 	
-	
-	.solutionBox a {
+	.servicesBox a {
 		text-decoration: none;		
 	}
 	
-	
-	.solutionBox .imgIcon {
+	.servicesBox .imgIcon {
 		width: 143px;
 		height:62px;
 		margin: 17px;
@@ -378,18 +381,18 @@
 		
 	}
 	
-	.solutionBox .imgIcon:hover {
+	.servicesBox .imgIcon:hover {
 		 background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS_hover.png);
 		  
 	}
 	
-	.solutionBox  div > p {
+	.servicesBox p {
 		color: #ffffff;
 		font-size: 16px;
 		text-decoration: none;
 		padding: 5px 0 0 12px ;
 		text-align: center;
-		
+		text-shadow: 2px 2px 4px #000000; 	
 	}
 	
 	
