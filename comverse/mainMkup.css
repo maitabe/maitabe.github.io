@@ -362,8 +362,24 @@
 
 	/*Section Happening at Comverse's*/
 
-	.eventList{
+	.eventList li {
 		list-style-type: none;
+		display: inline-block;
+		margin-right: 13px;
+	}
+
+	.eventList .textBelow{
+		height: 100%;
+		width: 24px;
+		color: #ffffff;
+		text-decoration: none;
+		text-shadow: 2px 2px 4px #000000;
+		border:  1px solid black;
+	}
+
+	.eventList .textBelow:hover{
+		color: #000000;
+		text-decoration: none;
 	}
 
 	.subTitleSection{
@@ -373,14 +389,14 @@
 		text-shadow: 2px 2px 4px #000000;
 	}
 
-	.transparentBox{
-		width: 300px;
-		height: 120px;
+	.transparentBox {
+		width: 295px;
+		height: 121px;
 		background-color: rgba(256, 256, 256, 0.4);
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 	}
 
-	.blueBox{
+	 .transparentBox .blueBox{
 		width: 69px;
 		height: 99px;
 		color: #ffffff;
@@ -389,30 +405,100 @@
 		margin: 10px 0 0 10px;
 	}
 
-	.date{
-		height: 66px;
-		font-size: 30px;
+	.transparentBox .date{
+		height: 67px;
+		font-size: 40px;
 		border-bottom: 3px dotted white;
 		text-align: center;
 		line-height: 60px;
 	}
 
-	.month{
+	.transparentBox .month{
 		height: 33px;
 		color: #ffffff;
 		background-color: #3399CC;
-		font-size: 12px;
+		font-size: 15px;
 		text-align: center;
 		line-height: 35px;
 	}
 
-	.insideBox{
-	  width:200px;
-	  height:40px;
-	  color:#000000;
-	  font-size:20px;
-	  float: left;
-	  text-align: left;
-	  padding-left:10px;
+	.transparentBox .insideBox{
+	  width: 186px;
+	  padding: 1px 0 0 100px;
 	}
 	
+	.eventList .titleSection > span{
+		color: #565656;
+		font-size: 1em ;
+		padding: 0 0 56px 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.wrapBox {
+		width:340px;
+		height: 210px;
+		border: 1px solid black;
+		list-style-type: none;
+	}
+
+	
+
+	.wrapBox img{
+		width: 100px;
+		height: 100px;
+		padding: 11px 9px;
+		float: left;
+		color: #6D6D6D;
+	}
+
+	.wrapBox .text{
+		height: 100%;
+	}
+
+
+	.wBbelow {
+		width: 302px;
+		height: 62px;
+		
+		margin: 0 auto;
+	}
+
+	.wBbelow p {
+	/* margin: 0; */
+	margin-top: 12px;
+	margin-bottom: 0px;
+	}
+
+	.wBbelow div {
+		width:182px;
+		float: left;
+	}
+
+	.wBbelow p:first-child  {
+		line-height: 6px;
+		font-size: 1em;
+		color: #3399CC;
+	}
+
+
+	.wBbelow img {
+		width: 100px;
+		height: 42px;
+		float: left;
+}
+	.wBTop {
+		width: 302px;
+		height: 130px;
+		margin: 0 auto;
+		border-bottom: 1px solid #DDDDDD;
+		
+	}
+
+	.tinyWb {
+		width: 108px;
+		height: 96px;
+		border:1px solid black;
+		list-style-type: none;
+		margin-top: 10px;
+	}

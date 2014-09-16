@@ -282,8 +282,8 @@
 	}
 	
 	.transparentBox{
-		width: 300px;
-		height: 120px;
+		width: 295px;
+		height: 121px;
 		background-color: rgba(256, 256, 256, 0.4);
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 	}
@@ -299,7 +299,7 @@
 
 	.date{
 		height: 66px;
-		font-size: 30px;
+		font-size: 40px;
 		border-bottom: 3px dotted white;
 		text-align: center;
 		line-height: 60px;
@@ -309,20 +309,16 @@
 		height: 33px;
 		color: #ffffff;
 		background-color: #3399CC;
-		font-size: 12px;
+		font-size: 15px;
 		text-align: center;
 		line-height: 35px;
 	}
 
 	.insideBox{
 	  width:200px;
-	  height:40px;
-	  color:#000000;
-	  font-size:20px;
-	  float: left;
-	  text-align: left;
-	  padding-left:10px;
+	  padding: 1px 0 0 100px;
 	}
+	
 	
 	
 	.btnBig {
