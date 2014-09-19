@@ -1,15 +1,73 @@
  	header{
- 		border:1px solid blue;
+ 		/*border:1px solid blue;*/
  	}
 
+	 .contWrapper {
+	 	margin: 0 auto;
+	 	max-width: 960px;
+	 	margin-top: 10px;
+	 	height: 62px;
+	 	}
 
+ 	.slides {
+ 		height: 549px;
+ 		background: url(img/hp_ferriswheel_2500x639.jpg);	
+ 	}
+
+ 	.contSlide {
+		margin: 0 auto;
+	 	max-width: 960px;
+	 	margin-top: 10px;
+	 	padding-top: 21px;
+	 	}
+
+	.blueWrapper {
+	background-color: #3399cc;
+	margin: 0 auto;
+	width: 960px;
+
+	}
+
+	.boxWrapper {
+	background: url(img/pic02.jpg);  
+	}
+
+	.boxSuccess {
+		background-color: #ECECEC;
+		height: 580px;
+	}
+	
+	.wrapSucc {
+		max-width: 960px;
+		margin: 0 auto;
+	}
 
 /*Top  */
+
+	.brand  {
+	width:185px;		
+		float:left;
+	}
+
+	nav{
+		width:540px;
+		float:left;
+		margin-top: 34px;
+	}
+
+	form {
+		width:185px;
+		float: left;
+	}
+
+	 
+
  	.navList {
 		list-style-type: none; <!--take bullets out-->
 		<!--to remove indentation-->
 		margin: 0;
 		padding: 0; 
+
 	}
 
 	.navList li {
@@ -22,7 +80,7 @@
 		color: rgb(88, 89, 81);
 		text-decoration: none;
 		text-transform: uppercase;
-		font: 1em Arial;
+		font: 0.8em Arial;
 		font-weight: bold;
 		padding: 5px 10px 0 10px;
 	}
@@ -39,6 +97,8 @@
 		border: 1px solid lightgray;
 		border-radius: 5px;
 		color: #cc6;
+		float: left;
+		margin: 46px 0 0 30px;
 	}
 
 	.searchBox > input {
@@ -74,6 +134,8 @@
 	 	list-style-type: none;
 	 	font: 1em Arial;
 	 	color:#585951;
+	 	width: 200px;
+	 	position: absolute;
 	 }
 
 	 .langLogin select{
@@ -99,7 +161,7 @@
 	 }
 
 	.main {
- 		border:1px solid green;
+ 		
  	}
 
  	/*Slides*/
@@ -120,7 +182,7 @@
 
 	/*Button*/
 
-	.btnBig {
+	.btnBig{
 		padding: 8px 89px 7px 15px;
 		border: 1px #2f95c8;
 		border-radius: 5px;
@@ -133,6 +195,9 @@
 		position: relative;
 	}
 	
+
+
+
 	.btnBig a:link,
 	.btnBig a:visited {
 		background: #2f95c8;
@@ -173,6 +238,10 @@
 	
 	/*Module Colorful Boxes */
 
+	.moduleBox {
+		padding: 119px 0 0 0 ;
+	}
+
 	.moduleBox li {
 		display: inline-block;
 		width: 219px;
@@ -183,7 +252,7 @@
 		color: #ffffff;
 		padding: 15px 0 0 9px; 
 		border: 1px orange;
-		box-shadow: 0px 4px 4px 0px;
+		/*box-shadow: 0px 4px 4px 0px;*/
 		box-sizing: border-box;
 	}
 
@@ -251,19 +320,19 @@
 			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 			color: #ffffff;  
 			text-transform: uppercase;
-			text-shadow: 2px 2px 4px #000000; 
+			padding-top: 49px;
+			text-align: center;
 		}
 
 	/*  Comverse's Icon Services */
 	.servicesBox {
 		list-style-type: none;
-		/*margin-left: 10px;*/
+		margin-bottom: 46px;
 	}
 
 	.servicesBox li{
-		width: 150px;
+		width: 130px;
 		height: 157px;
-		border: 1px solid black;
 		display: inline-block;
 		list-style-type: none;
 		
@@ -345,11 +414,22 @@
 	}
 	
     /*Section Comverse's Solutions */
+    /*.solutions{
+    	background-color: #646263;
+    	height: 173px;
+    }
+    */
 
+    .soluCom {
+    	margin: 55px 0 0 545px;
+    }
+
+   
 	.soluCom li {
 		list-style-type: none;
 		display: inline-block;
 		margin-right: 90px;
+		
 	}
 
 	.soluCom a {
@@ -361,7 +441,11 @@
 	}
 
 	/*Section Happening at Comverse's*/
-
+	.eventList {
+		width: 960px;
+		margin: 0 auto;
+	}
+	
 	.eventList li {
 		list-style-type: none;
 		display: inline-block;
@@ -374,7 +458,6 @@
 		color: #ffffff;
 		text-decoration: none;
 		text-shadow: 2px 2px 4px #000000;
-		border:  1px solid black;
 	}
 
 	.eventList .textBelow:hover{
@@ -389,11 +472,20 @@
 		text-shadow: 2px 2px 4px #000000;
 	}
 
+ 	/*white boxes - Testimonials */
+	.stories {
+		width:352px;
+		height:323px;
+		float: left;
+	}
+
+
 	.transparentBox {
 		width: 295px;
 		height: 121px;
 		background-color: rgba(256, 256, 256, 0.4);
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+		margin-bottom: 15px;
 	}
 
 	 .transparentBox .blueBox{
@@ -438,11 +530,15 @@
 	.wrapBox {
 		width:340px;
 		height: 210px;
-		border: 1px solid black;
+		background: #ffffff;
+		/*border: 1px solid black;*/
 		list-style-type: none;
 	}
 
-	
+	.wrapBoxSmll {
+		width:216px;
+		height: 210px;
+	}
 
 	.wrapBox img{
 		width: 100px;
@@ -495,10 +591,59 @@
 		
 	}
 
+	.wBTopSmall {
+		width: 302px;
+		height: 130px;
+		margin: 0 auto;
+		border-bottom: 1px solid #DDDDDD;
+		
+	}
+
 	.tinyWb {
 		width: 108px;
 		height: 96px;
-		border:1px solid black;
+		/*border:1px solid black;*/
 		list-style-type: none;
 		margin-top: 10px;
+	}
+
+	
+
+		/*footer*/
+
+	footer{
+		background: #000000;
+		height: 357px;
+	}
+
+	.bottomBox{
+		width: 800px;
+		height: 225px;
+		font: 1.75em Arial;
+		background: #000000;
+		color: #ffffff;
+	}
+	
+	
+	
+	.bottomBox .textBox, .verticalList {
+		list-style-type: none;
+		padding: 10px 0 0 30px;
+		font: 16px Arial;
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: normal;
+		float: left;
+	}
+	
+	.bottomBox .verticalList a:link,
+	.bottomBox .verticalList a:visited{
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	.bottomBox .verticalList a:hover,
+	.bottomBox .verticalList a:focus{
+		text-decoration: underline;
+		color: #ffffff;
 	}
